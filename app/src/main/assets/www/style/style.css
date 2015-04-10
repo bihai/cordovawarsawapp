@@ -1,0 +1,156 @@
+a.ui-btn {
+    background-color: rgba(0, 255, 57, 0.28);
+}
+
+.ui-page .ui-header {
+    background: #FF9800 !important;
+}
+
+.ui-title {
+    text-shadow: none !important;
+}
+
+li.attraction {
+    margin: -5px -5px -5px -8px;
+}
+
+a.back {
+    background-image: url("/images/carat-l-black.png");
+}
+
+.back-img {
+    margin: 0 0 23%;
+}
+
+.category-table { 
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.category-cell { 
+	padding: 2px 5px;
+	display: table-cell; 
+	background-size: cover;
+	position: relative;
+}
+
+.category-cell img{ 
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+
+
+.category-row { 
+	display: table-row; 
+	height: 100px;
+}
+
+.category-cell span {
+
+
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0px 10px;
+  color: black;
+  margin: 0;
+  font: 14px Sans-Serif;
+}
+
+#resultsListsView {
+	left: 1%;
+	width: 98%;
+
+}
+
+#attractionSearchView p {
+
+	font: 16px Sans-Serif;
+	font-weight: bold;
+}
+
+ .ui-field-contain div.ui-input-text {
+    width: auto;
+    display: block;
+}
+
+.list-item-image-container
+{
+  padding: 5px 5px 0 0;
+  text-align: center;
+  float: left;
+}
+
+.list-item-image-container img
+{
+  width: 70px;
+  height: 70px;
+}
+
+ div.attractionView {
+	background-color: #F9F9F9;
+
+} 
+
+div.attractionView img
+{
+  margin: 0.5%;
+  width: 99%; 
+  background-color: #F9F9F9;
+}
+
+
+div.attractionView h2
+{
+  margin: 10px 0;
+}
+
+div.attractionView h3
+{
+  margin: 5px 0;
+}
+
+.attraction-info-container {
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: white;
+	padding: 8px;
+	margin: 10px 0px;
+
+}
+
+div#mapDiv {
+    padding: 0;
+    position : absolute !important;
+    top : 0px !important;
+    right : 0;
+    bottom : 0px !important;
+    left : 0 !important;
+}
+
+@media screen and (max-width: 481px) {
+	.category-cell img {
+		width: 100%;
+		height: 35%;
+	}
+}
+
+@media screen and(min-width: 481px) and (max-width: 959px) {
+		.category-cell img {
+		width: 100%;
+		height: 55%;
+	}
+}
+
+@media screen and (min-width: 1130px) {
+	.category-cell img {
+		width: 100%;
+		height: 65%;
+	}
+
+
+}
