@@ -1,6 +1,6 @@
 # cordovawarsawapp
 
-Prosta aplikacja dla systemu Android zbudowana przy wykorzystaniu frameworka wieloplatformowego [PhoneGap Cordova][1]. Ponieważ aplikacje androidowe wymagają odpowiedniej struktury projektu, właściwy kod aplikacji znajduje się w folderze [assets/www][13]. Aplikacja umożliwia przeglądanie atrakcji miasta Warszawa (wybór według kategorii, własnej lokalizacji lub nazwy ulicy). Aplikacja komunikuje się z zewnętrznym serwerem, który zwraca aplikacji dane przechowywane w bazie danych Postgresql.
+Prosta aplikacja dla systemu Android zbudowana przy wykorzystaniu frameworka wieloplatformowego [PhoneGap Cordova][1]. Ponieważ aplikacje androidowe wymagają odpowiedniej struktury projektu, właściwy kod aplikacji znajduje się w folderze [assets/www][13]. Aplikacja umożliwia przeglądanie atrakcji miasta Warszawa (wybór według kategorii, własnej lokalizacji lub nazwy ulicy). Aplikacja komunikuje się z zewnętrznym serwerem, który zwraca dane przechowywane w bazie danych Postgresql.
 
 Oprócz frameworka [PhoneGap Cordova][1] wykorzystywane są również:
 * [Knockout.js][3]
@@ -8,7 +8,7 @@ Oprócz frameworka [PhoneGap Cordova][1] wykorzystywane są również:
 * [Require.js][4]
 * [Underscore.js][5]
 
-Ze względu na fakt, że aplikacja zbudowana jest w całości we frameworkach webowych jej działanie można sprawdzić także w przeglądarce (wystarczy do tego kod z folderu [assets/www][13], jednak funkcjonalności charakterystyczne dla urządzeń mobilnych (jak np. zapisanie danych do książki adresowej urządzenia), nie będą funkcjonować.
+Ze względu na fakt, że aplikacja zbudowana jest w całości we frameworkach webowych jej działanie można sprawdzić także w przeglądarce (wystarczy do tego kod z folderu [assets/www][13], jednak funkcjonalności charakterystyczne dla urządzeń mobilnych (jak np. zapisanie danych do książki adresowej urządzenia), nie będą działać poprawnie.
 
 Screenshots
 -----------
